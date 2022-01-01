@@ -6,9 +6,16 @@ function filterByQuery(query, notesArray) {
     if (query.title) {
         filteredResults = filteredResults.filter(note => note.title ===query.title);
     }
+    if (query.text) {
+        filteredResults = filteredResults.filter(note => note.text === query.text);
+    }
+    return filteredResults;
 }
 app.get('/api/notes', (req, res) => {
     let results = notes;
+    if (req.query) {
+        results = filterByQuery(req.query, results);
+    }
     console.log(req.query)
     res.json(results);
 });

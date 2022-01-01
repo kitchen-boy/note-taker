@@ -3,6 +3,10 @@
         {
             "title":"Test Title",
             "text":"Test text"
+        }, 
+        {
+            "title": "Title 2",
+            "test":"Text 2"
         }
     ]
 }
