@@ -2,11 +2,11 @@
     "notes": [
         {
             "title":"Test Title",
-            "text":"Test text"
+            "textWords":"Test text"
         }, 
         {
             "title": "Title 2",
-            "test":"Text 2"
+            "textWords":"Text 2"
         }
     ]
 }
