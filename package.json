@@ -1,0 +1,24 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "* [Project Description](#description) * [Task Completed](#task-completed) * [User Story](#user-story) * [Acceptance Criteria](#acceptance-criteria) * [Installation](#installation-setup) * [Tools Used](#tools-used) * [Mock-Up](#mock-up) * [Links](#links) * [Credits](#credits)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitchen-boy/note-taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kitchen-boy/note-taker/issues"
+  },
+  "homepage": "https://github.com/kitchen-boy/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

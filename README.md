@@ -7,7 +7,6 @@
 * [Installation](#installation-setup)
 * [Tools Used](#tools-used)
 * [Mock-Up](#mock-up)
-* [Screenshots and Video Link of application](#screenshots-and-video)
 * [Links](#links)
 * [Credits](#credits)
 
@@ -41,12 +40,15 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
-# Installation:
+# Installation Setup:
 Copied following starter code to set up inital repo:
 [the starter code](https://github.com/coding-boot-camp/miniature-eureka)
 
 # Tools Used:
-* [Express.js](https://www.npmjs.com/package/express) is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It is considered the de facto standard server framework for Node.js.
+* [Express.js](https://www.npmjs.com/package/express): a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It is considered the de facto standard server framework for Node.js.
+* [Insomnia](https://insomnia.rest/): a powerful REST API client that allows us to test APIs and make client-side server requests without having to use a browser.
+* [Heroku](https://www.heroku.com/): a cloud application platform that enables developers to build, run, and operate applications entirely in the cloud. Heroku allows you to deploy a server.js file that will run the Node.js process.
+* [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli): To deploy apps easily without leaving the command line.
 
 # Mock-Up
 
@@ -88,7 +90,6 @@ Kaye Chen-Boyce
 # References and tutorials utilized
 * []()
 * BCS Learning Assistant
-* []()
 * [How to use Express](https://expressjs.com/en/api.html#express)
 * Instructor Scott Burman
 * Tutor Alexis San Javier
