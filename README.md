@@ -1,12 +1,21 @@
 # 11 Express.js: Note Taker
+# Table of Contents:
+* [Project Description](##description)
+* [Task Completed](##task-completed)
+* [User Story](##user-story)
+* [Acceptance Criteria](##acceptance-criteria)
+* [Installation](##installation-setup)
+* [Tools Used](##tools-used)
+* [Mock-Up](##mock-up)
+* [Screenshots and Video Link of application](##screenshots-and-video)
+* [Links](##links)
+* [Credits](##credits)
 
-## Your Task
+## Description 
+An application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
-Your challenge is to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
-
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
-
-Before you start, clone [the starter code](https://github.com/coding-boot-camp/miniature-eureka).
+## Task Completed
+To build the back end, connect the application's front end and back end, and then deploy the entire application to Heroku.
 
 ## User Story
 
@@ -33,14 +42,20 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
+## Installation:
+Copied following starter code to set up inital repo:
+[the starter code](https://github.com/coding-boot-camp/miniature-eureka)
+
+## Tools Used:
+* [Express.js](https://www.npmjs.com/package/express) is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It is considered the de facto standard server framework for Node.js.
 
 ## Mock-Up
 
 The following images show the web application's appearance and functionality: 
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
+![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/images/11-express-homework-demo-01.png)
 
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
+![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/images/11-express-homework-demo-02.png)
 
 ## Getting Started
 
@@ -64,13 +79,17 @@ You haven’t learned how to handle DELETE requests, but this application has th
 
 * `DELETE /api/notes/:id` should receive a query parameter containing the id of a note to delete. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
 
-## Review
+## Links
+* The URL of the functional, deployed application:
+* The URL of the GitHub repository: https://github.com/kitchen-boy/note-taker
 
-You are required to submit BOTH of the following for review:
+# CREDITS
+Kaye Chen-Boyce
 
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+### References and tutorials utilized
+* []()
+* BCS Learning Assistant
+* []()
+* [How to use Express](https://expressjs.com/en/api.html#express)
+* Instructor Scott Burman
+* Tutor Alexis San Javier
