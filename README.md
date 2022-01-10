@@ -91,7 +91,6 @@ https://github.com/kitchen-boy/note-taker
 Kaye Chen-Boyce
 
 # References and tutorials utilized
-* []()
 * BCS Learning Assistant
 * [How to use Express](https://expressjs.com/en/api.html#express)
 * Instructor Scott Burman
